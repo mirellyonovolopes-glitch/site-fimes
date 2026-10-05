@@ -1,0 +1,368 @@
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+   ============================== */
+
+body {
+    margin: 0;
+
+    background-color: #fce4ec;
+
+    color: #222222;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ==============================
+   CABEÇALHO
+   ============================== */
+
+header {
+    background-color: #111111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    border-bottom: 5px solid #f4a6bd;
+}
+
+
+header h1 {
+    margin: 0;
+
+    font-size: 38px;
+
+    letter-spacing: 4px;
+}
+
+
+header p {
+    margin: 8px 0 0;
+
+    color: #f4a6bd;
+
+    font-size: 16px;
+}
+
+
+/* ==============================
+   ÁREA PRINCIPAL
+   ============================== */
+
+main {
+    width: 90%;
+
+    max-width: 850px;
+
+    margin: 40px auto;
+}
+
+
+/* ==============================
+   CARD DO FILME
+   ============================== */
+
+.filme {
+    background-color: white;
+
+    padding: 35px;
+
+    border: 1px solid #f2b8c9;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ==============================
+   CATEGORIA
+   ============================== */
+
+.categoria {
+    color: #d45d7d;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+
+/* ==============================
+   TÍTULO DO FILME
+   ============================== */
+
+.filme h2 {
+    color: #111111;
+
+    font-size: 42px;
+
+    margin: 5px 0 10px;
+}
+
+
+/* ==============================
+   FRASE
+   ============================== */
+
+.frase {
+    color: #777777;
+
+    font-size: 17px;
+
+    margin-bottom: 25px;
+}
+
+
+/* ==============================
+   PÔSTER
+   ============================== */
+
+.poster {
+    width: 300px;
+
+    max-width: 100%;
+
+    border: 5px solid #f4a6bd;
+
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+}
+
+
+/* ==============================
+   TÍTULOS DAS SEÇÕES
+   ============================== */
+
+.filme h3 {
+    color: #111111;
+
+    font-size: 24px;
+
+    border-bottom: 2px solid #f4a6bd;
+
+    padding-bottom: 8px;
+
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   SINOPSE
+   ============================== */
+
+.sinopse {
+    color: #444444;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    text-align: justify;
+
+    margin-bottom: 25px;
+}
+
+
+/* ==============================
+   INFORMAÇÕES
+   ============================== */
+
+.informacoes {
+    background-color: #fff3f6;
+
+    border: 1px solid #f2b8c9;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    margin-bottom: 25px;
+}
+
+
+.informacoes p {
+    margin: 15px 0;
+
+    font-size: 15px;
+
+    color: #555555;
+}
+
+
+.informacoes strong {
+    color: #111111;
+
+    font-size: 16px;
+}
+
+
+/* ==============================
+   ELENCO
+   ============================== */
+
+.elenco {
+    width: 80%;
+
+    margin: 0 auto 30px;
+
+    padding-left: 25px;
+
+    text-align: left;
+}
+
+
+.elenco li {
+    margin-bottom: 12px;
+
+    color: #444444;
+
+    font-size: 16px;
+}
+
+
+/* ==============================
+   CARDS DOS ATORES
+   ============================== */
+
+.ator {
+    width: 180px;
+
+    margin: 20px auto;
+
+    padding: 15px;
+
+    background-color: #fff3f6;
+
+    border: 1px solid #f2b8c9;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+
+/* ==============================
+   IMAGEM DOS ATORES
+   ============================== */
+
+.ator img {
+    width: 150px;
+
+    height: 190px;
+
+    border-radius: 8px;
+
+    border: 3px solid #f4a6bd;
+}
+
+
+/* ==============================
+   NOME DOS ATORES
+   ============================== */
+
+.ator h4 {
+    color: #111111;
+
+    font-size: 18px;
+
+    margin: 12px 0 5px;
+}
+
+
+/* ==============================
+   PERSONAGEM
+   ============================== */
+
+.ator p {
+    color: #d45d7d;
+
+    font-size: 15px;
+
+    margin: 0;
+}
+
+
+/* ==============================
+   EFEITO DOS CARDS
+   ============================== */
+
+.ator:hover {
+    background-color: #fce4ec;
+
+    border-color: #d45d7d;
+}
+
+
+/* ==============================
+   BOTÃO
+   ============================== */
+
+.botao {
+    display: inline-block;
+
+    background-color: #111111;
+
+    color: white;
+
+    padding: 15px 30px;
+
+    border: 2px solid #111111;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+}
+
+
+/* ==============================
+   EFEITO DO BOTÃO
+   ============================== */
+
+.botao:hover {
+    background-color: #f4a6bd;
+
+    color: #111111;
+
+    border-color: #f4a6bd;
+}
+
+
+/* ==============================
+   RODAPÉ
+   ============================== */
+
+footer {
+    background-color: #111111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    font-size: 14px;
+
+    border-top: 5px solid #f4a6bd;
+}
+
+
+footer p {
+    margin: 6px;
+}
